@@ -1,0 +1,5 @@
+Comandos para lanzar los contenedores:
+
+docker run -d -p 8545:8545 -p 30303:30303 -v ${PWD}/localdata:/data -v ${PWD}/genesis.json:/genesis.json --name eth-node ethereum/client-go init --datadir /data /genesis.json
+
+docker run -d -p 8545:8545 -p 30303:30303 -v ${PWD}/localdata:/data --name eth-node-01 ethereum/client-go --datadir data --http.api personal,eth,net,web3 --http --http.addr 0.0.0.0 --http.port 8545 --mine --miner.etherbase 0x59dfDd2af55E3D636A2cc0a3338615E59056E478 --miner.threads=1
