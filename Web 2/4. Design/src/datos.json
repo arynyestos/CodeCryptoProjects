@@ -1,0 +1,106 @@
+{
+    "cabecera":{
+        "nombre":"Mi empresa",
+        "enlaces":[
+            {
+                "texto":"Blog",
+                "URL":"http://blog.com"
+            },
+            {
+                "texto":"YouTube",
+                "URL":"http://youtube.com"
+            }
+        ]
+    },
+    "pie":[
+        {
+            "titulo":"Social",
+            "enlaces":[
+                {
+                    "titulo":"YouTube",
+                    "URL": "http://youtube.com"
+                },
+                {
+                    "titulo":"Tiwtter",
+                    "URL": "http://twitter.com"
+                },
+                {
+                    "titulo":"Facebook",
+                    "URL": "http://facebook.com"
+                }
+            ]
+        },
+        {
+            "titulo":"Social",
+            "enlaces":[
+                {
+                    "titulo":"YouTube",
+                    "URL": "http://youtube.com"
+                },
+                {
+                    "titulo":"Tiwtter",
+                    "URL": "http://twitter.com"
+                },
+                {
+                    "titulo":"Facebook",
+                    "URL": "http://facebook.com"
+                }
+            ]
+        }
+    ],
+    "precios": [
+        {
+            "titulo":"Free",
+            "precio":"$0",
+            "por":"month",
+            "textoBotón":"Sign up for free",
+            "features":[
+                "10 users included",
+                "2 GB ",
+                "Email ",
+                "Help center crypto"
+            ]
+        },
+        {
+            "titulo":"Pro",
+            "precio":"$0",
+            "por":"month",
+            "textoBotón":"Sign up for free",
+            "features":[
+                "100 users included",
+                "20 GB ",
+                "Email ",
+                "Help center crypto"
+            ]
+        },
+        {
+            "titulo":"Enterprise",
+            "precio":"$0",
+            "por":"month",
+            "textoBotón":"Sign up for free",
+            "features":[
+                "1000 users included",
+                "200 GB ",
+                "Email ",
+                "Help center crypto"
+            ]
+        }
+    ],
+    "carrusel":[
+        {
+            "texto": "Madrid Da Vinci",
+            "url": "/Madrid Da Vinci.png",
+            "alt": "Texto alternativo imagen"
+        },
+        {
+            "texto": "Capitán Bitcoin contra el Estado",
+            "url": "/captain_bitcoin_fighting_the_powers_of_the_state.png",
+            "alt": "Texto alternativo imagen"
+        },
+        {
+            "texto": "The future is now",
+            "url": "/lago.jpg",
+            "alt": "Texto alternativo imagen"
+        }
+    ]
+}
