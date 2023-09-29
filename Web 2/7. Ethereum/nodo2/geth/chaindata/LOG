@@ -1,0 +1,45 @@
+=============== Dec 20, 2022 (CET) ===============
+17:55:59.984149 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:55:59.989705 db@open opening
+17:55:59.991300 version@stat F·[] S·0B[] Sc·[]
+17:55:59.994300 db@janitor F·2 G·0
+17:55:59.994300 db@open done T·4.595ms
+17:56:00.058604 db@close closing
+17:56:00.058983 db@close done T·379µs
+=============== Dec 20, 2022 (CET) ===============
+18:04:50.167185 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:04:50.167185 version@stat F·[] S·0B[] Sc·[]
+18:04:50.167185 db@open opening
+18:04:50.167185 journal@recovery F·1
+18:04:50.176169 journal@recovery recovering @1
+18:04:50.180133 memdb@flush created L0@2 N·624 S·52KiB "\x00\xedE..bTB,v613":"\xfe\x88\xcf..H\xef\xcc,v362"
+18:04:50.190084 version@stat F·[1] S·52KiB[52KiB] Sc·[0.25]
+18:04:50.197547 db@janitor F·3 G·0
+18:04:50.197547 db@open done T·30.3627ms
+=============== Dec 21, 2022 (CET) ===============
+17:34:47.344388 db@close closing
+17:34:47.344388 db@close done T·0s
+=============== Dec 21, 2022 (CET) ===============
+17:35:00.072959 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:35:00.073990 version@stat F·[1] S·52KiB[52KiB] Sc·[0.25]
+17:35:00.073990 db@open opening
+17:35:00.073990 journal@recovery F·1
+17:35:00.080582 journal@recovery recovering @3
+17:35:00.084587 memdb@flush created L0@5 N·409 S·20KiB "\x0e{\xde..\xbb\x81\x9a,v1023":"\xf2\xf4~..\x9c\xd4\xd8,v1015"
+17:35:00.091580 version@stat F·[2] S·72KiB[72KiB] Sc·[0.50]
+17:35:00.112260 db@janitor F·4 G·0
+17:35:00.112260 db@open done T·38.2707ms
+19:07:17.495999 db@close closing
+19:07:17.497261 db@close done T·1.2624ms
+=============== Dec 21, 2022 (CET) ===============
+19:07:20.911375 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:07:20.915078 version@stat F·[2] S·72KiB[72KiB] Sc·[0.50]
+19:07:20.915078 db@open opening
+19:07:20.915078 journal@recovery F·1
+19:07:20.921810 journal@recovery recovering @6
+19:07:20.925812 memdb@flush created L0@8 N·374 S·26KiB "\x1aIe..\xe1e\x86,v1394":"\xf4\xf6=..\x93\x17\xe8,v1398"
+19:07:20.934938 version@stat F·[3] S·99KiB[99KiB] Sc·[0.75]
+19:07:20.946898 db@janitor F·5 G·0
+19:07:20.946898 db@open done T·31.82ms
+19:25:25.742605 db@close closing
+19:25:25.743175 db@close done T·569.5µs
