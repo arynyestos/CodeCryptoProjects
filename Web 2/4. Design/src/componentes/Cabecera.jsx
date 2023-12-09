@@ -1,4 +1,4 @@
-import {Logo} from "./Logo"
+import { Logo } from "./Logo"
 import datos from "../datos.json"
 
 export function Cabecera() {
@@ -9,10 +9,10 @@ export function Cabecera() {
         </div>
         <div>
             {
-                datos.cabecera.enlaces.map((item,index) => 
+                datos.cabecera.enlaces.map((item, index) =>
                     <a key={index} className="mx-3 text-decoration-none" href={item.URL}>{item.texto}</a>
                 )
-            }            
+            }
         </div>
     </div>
 }

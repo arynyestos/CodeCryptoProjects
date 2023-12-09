@@ -17,25 +17,25 @@ export function Productos() {
     //     </div>
     // }
 
-    return(
+    return (
         <div>
             <table className='table'>
                 <thead>
                     <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Precio</th>
+                        <th scope="col">Name</th>
+                        <th className='text-end' scope="col">Price</th>
                     </tr>
                 </thead>
                 <tbody>
                     {data.map(producto => (
-                    <tr key={producto.ProductID}>
-                        <td>
-                            <Link to={`/productos/${producto.ProductID}`}>
-                                {producto.ProductName}
-                            </Link>
-                        </td>
-                        <td>{producto.UnitPrice}</td>                        
-                    </tr>
+                        <tr key={producto.ProductID}>
+                            <td>
+                                <Link to={`/productos/${producto.ProductID}`}>
+                                    {producto.ProductName}
+                                </Link>
+                            </td>
+                            <td className='text-end'>{producto.UnitPrice}</td>
+                        </tr>
                     ))}
                 </tbody>
             </table>

@@ -1,4 +1,4 @@
-import{ useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { Contexto } from './main'
 import { Link } from 'react-router-dom'
 import { ethers } from 'ethers'
@@ -12,7 +12,7 @@ export function Cesta() {
     const [txRechazo, setTxRechazo] = useState()
 
     useEffect(() => {
-        ethereum && ethereum.request({method: 'eth_requestAccounts'}).then(cuentas => {
+        ethereum && ethereum.request({ method: 'eth_requestAccounts' }).then(cuentas => {
             setCuenta(cuentas[0])
             ethereum.on('accountsChanged', (cuentas) => {
                 setCuenta(cuentas[0])
@@ -20,7 +20,7 @@ export function Cesta() {
         })
     }, [])
 
-    async function pagar(){
+    async function pagar() {
 
         setTxOk(false)
         setTxRechazo(false)
@@ -29,27 +29,27 @@ export function Cesta() {
             from: ethereum.selectedAddress, // La cuenta activa en Metamask
             value: ethers.utils.parseEther(total.toString()).toHexString()
         }
-        try{
+        try {
             const txHash = await ethereum.request({
                 method: 'eth_sendTransaction',
                 params: [paramsTx],
             })
             setTxOk(txHash) // Transacción enviada
-        } catch(error) {
+        } catch (error) {
             setTxRechazo(error) // Transacción cancelada por el motivo que sea
-        } finally{
+        } finally {
             // FInal
         }
     }
 
-    return(
+    return (
         <div>
             <table className='table'>
                 <thead>
                     <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Precio</th>
-                        <th scope="col">Cantidad</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Amount</th>
                         <th scope="col">Total</th>
                     </tr>
                 </thead>
@@ -57,20 +57,20 @@ export function Cesta() {
                     {estado.cesta.map(item => (
                         <tr key={item.producto.ProductID}>
                             <td>
-                            <Link to={`/productos/${item.producto.ProductID}`}>
-                            {item.producto.ProductName}
-                            </Link>
+                                <Link to={`/productos/${item.producto.ProductID}`}>
+                                    {item.producto.ProductName}
+                                </Link>
                             </td>
                             <td>{item.producto.UnitPrice}</td>
                             <td>{item.cantidad}</td>
                             <td>{item.total}</td>
                         </tr>
-                    ) )}
+                    ))}
                 </tbody>
             </table>
             <div>Total a pagar: {total}</div>
             <div>Cuenta: {cuenta}</div>
-            <button className='my-3 btn btn-primary' onClick={() => {pagar()}}>Pagar</button>
+            <button className='my-3 btn btn-primary' onClick={() => { pagar() }}>Pagar</button>
             {txOk && <div className=' my-3 alert alert-success'>Transacción enviada: {txOk}</div>}
             {txRechazo && <div className=' my-3 alert alert-danger'>Transacción cancelada: {JSON.stringify(txRechazo.message)}</div>}
         </div>

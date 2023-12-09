@@ -1,60 +1,56 @@
 {
-    "cabecera":{
-        "nombre":"Mi empresa",
-        "enlaces":[
+    "cabecera": {
+        "nombre": "ByteBloom",
+        "enlaces": [
             {
-                "texto":"Blog",
-                "URL":"http://blog.com"
+                "texto": "Blog",
+                "URL": "https://blog.com"
             },
             {
-                "texto":"YouTube",
-                "URL":"http://youtube.com"
+                "texto": "YouTube",
+                "URL": "https://youtube.com"
             }
         ]
     },
-    "pie":[
+    "pie": [
         {
-            "titulo":"Social",
-            "enlaces":[
+            "titulo": "Contact us!",
+            "enlaces": [
                 {
-                    "titulo":"YouTube",
-                    "URL": "http://youtube.com"
+                    "titulo": "hello@bytebloom.com",
+                    "URL": "email@email.com"
                 },
                 {
-                    "titulo":"Tiwtter",
-                    "URL": "http://twitter.com"
-                },
-                {
-                    "titulo":"Facebook",
-                    "URL": "http://facebook.com"
+                    "titulo": "123 Smith Street, Melbourne, VIC 3000 Australia",
+                    "URL": "https://maps.google.com"
                 }
             ]
         },
         {
-            "titulo":"Social",
-            "enlaces":[
+            "titulo": "Social",
+            "enlaces": [
                 {
-                    "titulo":"YouTube",
-                    "URL": "http://youtube.com"
+                    "titulo": "YouTube",
+                    "URL": "https://youtube.com"
                 },
                 {
-                    "titulo":"Tiwtter",
-                    "URL": "http://twitter.com"
+                    "titulo": "Twitter",
+                    "URL": "https://twitter.com"
                 },
                 {
-                    "titulo":"Facebook",
-                    "URL": "http://facebook.com"
+                    "titulo": "Facebook",
+                    "URL": "https://facebook.com"
                 }
             ]
         }
     ],
     "precios": [
         {
-            "titulo":"Free",
-            "precio":"$0",
-            "por":"month",
-            "textoBotón":"Sign up for free",
-            "features":[
+            "titulo": "Free",
+            "precio": "$0",
+            "por": "month",
+            "textoBotón": "Sign up for free",
+            "features": [
                 "10 users included",
                 "2 GB ",
                 "Email ",
@@ -62,11 +58,11 @@
             ]
         },
         {
-            "titulo":"Pro",
-            "precio":"$0",
-            "por":"month",
-            "textoBotón":"Sign up for free",
-            "features":[
+            "titulo": "Pro",
+            "precio": "$0",
+            "por": "month",
+            "textoBotón": "Sign up for free",
+            "features": [
                 "100 users included",
                 "20 GB ",
                 "Email ",
@@ -74,11 +70,11 @@
             ]
         },
         {
-            "titulo":"Enterprise",
-            "precio":"$0",
-            "por":"month",
-            "textoBotón":"Sign up for free",
-            "features":[
+            "titulo": "Enterprise",
+            "precio": "$0",
+            "por": "month",
+            "textoBotón": "Sign up for free",
+            "features": [
                 "1000 users included",
                 "200 GB ",
                 "Email ",
@@ -86,20 +82,30 @@
             ]
         }
     ],
-    "carrusel":[
+    "carrusel": [
         {
-            "texto": "Madrid Da Vinci",
-            "url": "/Madrid Da Vinci.png",
+            "texto": "Live's a road, live a little.",
+            "url": "/road.jpg",
             "alt": "Texto alternativo imagen"
         },
         {
-            "texto": "Capitán Bitcoin contra el Estado",
-            "url": "/captain_bitcoin_fighting_the_powers_of_the_state.png",
+            "texto": "Take it easy, you'll be fine.",
+            "url": "/lake.jpg",
             "alt": "Texto alternativo imagen"
         },
         {
-            "texto": "The future is now",
-            "url": "/lago.jpg",
+            "texto": "You're just a human, relax.",
+            "url": "/boat.jpg",
+            "alt": "Texto alternativo imagen"
+        },
+        {
+            "texto": "Always aim high, you'll go far.",
+            "url": "/galaxy.jpg",
+            "alt": "Texto alternativo imagen"
+        },
+        {
+            "texto": "The sky is the limit.",
+            "url": "/sky.jpg",
             "alt": "Texto alternativo imagen"
         }
     ]
