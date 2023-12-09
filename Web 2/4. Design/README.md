@@ -36,19 +36,16 @@ Navigate to the project directory:
 
    ```bash
     cd project-name
-   ```
 
 Install dependencies:
 
    ```bash
     npm install
-   ```
 
 Run the project:
 
    ```bash
     npm start
-   ```
 
 This command will start the development server and open the project in your default browser.
 
