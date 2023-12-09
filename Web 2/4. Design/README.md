@@ -32,17 +32,17 @@ To use this project, clone the repository to your local machine and follow the i
    ```bash
    git clone https://github.com/your-username/project-name.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```bash
     cd project-name
 
-Install dependencies:
+3. Install dependencies:
 
    ```bash
     npm install
 
-Run the project:
+4. Run the project:
 
    ```bash
     npm start
