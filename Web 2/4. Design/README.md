@@ -40,12 +40,12 @@ To use this project, clone the repository to your local machine and follow the i
 3. Install dependencies:
 
    ```bash
-    npm install
+    yarn install
 
 4. Run the project:
 
    ```bash
-    npm start
+    yarn dev
 
 This command will start the development server and open the project in your default browser.
 
@@ -56,3 +56,6 @@ This command will start the development server and open the project in your defa
 ## Demo
 
 Below you can see a short video showing the page:
+
+https://github.com/arynyestos/CodeCryptoProjects/assets/33223441/3e844b8a-f420-4fe4-a41f-7408661ec0d5
+
