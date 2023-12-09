@@ -8,8 +8,7 @@ This React project showcases a dynamic webpage featuring a carousel, company det
 - [Usage](#usage)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demo](#demo)
 
 ## Overview
 
@@ -42,17 +41,21 @@ Navigate to the project directory:
 Install dependencies:
 
    ```bash
-npm install
+    npm install
    ```
 
 Run the project:
 
    ```bash
-npm start
+    npm start
    ```
 
 This command will start the development server and open the project in your default browser.
 
-Technologies Used
+## Technologies Used
 - React
 - Bootstrap
+
+## Demo
+
+Below you can see a short video showing the page:
